@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background2"
+    tools:context=".ChatAi">
+
+    <ImageView
+        android:id="@+id/goback_btn"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="352dp"
+        android:layout_marginBottom="669dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_new_24" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="339dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="575dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="85dp"
+        app:boxBackgroundColor="#FBF8F8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:hint="chat with ai" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="48dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="347dp"
+        android:layout_marginTop="578dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="85dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_send_24" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="413dp"
+        android:layout_height="470dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginBottom="158dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="76dp"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/baseline_chat_bubble_24" />
+
+    </com.google.android.material.navigation.NavigationView>
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="109dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="628dp"
+        android:tint="#F2383440"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_circle_24" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="659dp"
+        android:fontFamily="serif"
+        android:text="A I"
+        android:textAlignment="center"
+        android:textColor="#F8F8F8"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/dots_btn"
+        android:layout_width="70dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="653dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_more_horiz_24" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="653dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="77dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="387dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="656dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/bottom_bar" />
+
+    <ImageView
+        android:id="@+id/search_btn"
+        android:layout_width="48dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="669dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_search_24" />
+
+    <ImageView
+        android:id="@+id/home_btn"
+        android:layout_width="49dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="669dp"
+        android:layout_marginEnd="340dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_home_24" />
+
+    <ImageView
+        android:id="@+id/settings_btn"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_settings_24" />
+
+    <ImageView
+        android:id="@+id/openchat_btn"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_chat_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
